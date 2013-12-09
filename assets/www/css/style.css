@@ -1,0 +1,36 @@
+html{
+	background-color: #000022;
+}
+body{
+	background-color: #252525;
+}
+input[type=text]{
+	color: #DDDDDD;
+	background-color: #454545;
+}
+
+button{
+	font-size: 18px;
+	background-color: #66FFFF;
+	color: #000022;
+	font-style: bold;
+	-webkit-border-radius: 15px;
+}
+#title{
+	text-align:center;
+	font-size: 28px;
+	color: #AAAAAA;
+}
+#name{
+	width: 25%;
+}
+
+#response{
+	font-size: 18px;
+	text-align: center;
+}
+
+.defaultText{
+	font-size: 18px;
+	color: #DDDDDD;
+}

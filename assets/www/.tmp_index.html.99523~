@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet" href="css/style.css" type="text/css">
+
+</head>
+<body>
+	
+	<div id="timeline">
+		start ------------ drunk -------- sober
+	</div>
+	<br/>
+	<div class="defaultText">
+		Weight:<br/>
+		<input id="weightAmount" type='text' onkeypress='validate(event)'/>
+		<input type="radio" name="weightUnits" id="pounds" value="pounds">Pounds</input>
+		<input type="radio" name="weightUnits" id="kilograms" value="kilograms">Kilograms</input>
+	</div>
+
+	<div class="defaultText">
+		<input type="radio" name="gender" id="male" value="male">Male</input><br/>
+		<input type="radio" name="gender" id="female" value="female">Female</input>
+	</div>
+	
+	<div class="defaultText">
+		Number of drinks:<br/>
+		<input id="numDrinks" type='text' onkeypress='validate(event)' /> <button id="incrementDrink">+1</button>
+	</div>
+	
+	<div id="BACMessage" title="BAC:" style="display:none;"></div>
+	
+	<div class="defaultText">
+		What time did you start drinking?<br/>
+		<select id = "hour">
+               		<option value = "1">1</option>
+               		<option value = "2">2</option>
+               		<option value = "3">3</option>
+               		<option value = "4">4</option>
+               		<option value = "5">5</option>
+               		<option value = "6">6</option>
+               		<option value = "7">7</option>
+               		<option value = "8">8</option>
+               		<option value = "9">9</option>
+               		<option value = "10">10</option>
+               		<option value = "11">11</option>
+               		<option value = "12">12</option>
+             	</select>
+
+		<select id="minute">
+			<option value="00">00</option>
+			<option value="15">15</option>
+			<option value="30">30</option>
+			<option value="45">45</option>
+		</select>
+		<input type="radio" name="ampm" id="am" value="am">AM</input>
+		<input type="radio" name="ampm" id="pm" value="pm">PM</input>
+	</div>
+	
+	<div>
+		<button id="canIDrive">Can I Drive?</button>
+	</div>
+	
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<body>
+
+</html>
