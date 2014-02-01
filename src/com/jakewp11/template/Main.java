@@ -34,6 +34,7 @@ public class Main extends Activity {
         WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true);
         webSettings.setDomStorageEnabled(true);
+        webSettings.setDatabasePath("/data/data/"+this.getPackageName()+"/databases/");
         
     }
     
